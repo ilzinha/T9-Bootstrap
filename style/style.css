@@ -1,5 +1,5 @@
 .bg-roxo {
-    background-color: #a33fa3;
+    background-color: #7E459B;
 }
 
 a:hover {
@@ -7,20 +7,47 @@ a:hover {
 }
 
 .carousel-item {
-    height: 65vh;
-    min-height: 300px;
-    background-size: cover;
+    object-fit: cover;
+    object-position: 0 50%;
+    max-height: 500px;
+    height: 100%;
 }
 
 .about {
-    margin: 40px;
+   
     padding: 40px;
 }
 
 .icons_socialmedia {
-    color: #a33fa3;
+    color: #7E459B;
 }
 
 .habilities {
-    background-color: #a33fa3;
+    background-color:#7E459B;
 }
+
+/* .card {
+ margin: 90px;
+
+} */
+.card-img-top {
+    object-fit: fill;
+   height: 300px;
+   border-bottom: 1px solid rgb(216, 209, 209);
+
+}
+
+.btn-roxo {
+    color: #fff;
+    background-color: #7E459B;
+}
+
+.btn-roxo:hover {
+    color: beige;
+}
+
+.footer {
+    margin-top: 40px;
+    padding: 10px;
+} 
+
