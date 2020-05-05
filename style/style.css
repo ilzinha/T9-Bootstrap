@@ -1,0 +1,26 @@
+.bg-roxo {
+    background-color: #a33fa3;
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background-size: cover;
+}
+
+.about {
+    margin: 40px;
+    padding: 40px;
+}
+
+.icons_socialmedia {
+    color: #a33fa3;
+}
+
+.habilities {
+    background-color: #a33fa3;
+}
