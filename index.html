@@ -70,11 +70,21 @@
         <h3 class="font-weight-bold">Ilza Medeiros</h3>
         <p class="font-italic">Desenvolvedora Front End</p>
         <ul class="fa-ul d-flex flex-wrap justify-content-around">
-            <li><i class="fab fa-github-alt mr-2 icons_socialmedia"></i>github.com/ilzinha</li>
-            <li><i class="fab fa-linkedin mr-2 icons_socialmedia"></i>linkedin.com/in/ilza-medeiros/</li>
-            <li><i class="fas fa-envelope mr-2 icons_socialmedia"></i>ilzammed2@gmail.com</li>
+            <li>
+                <i class="fab fa-github-alt mr-2 icons_socialmedia"></i>
+                <a href="">github.com/ilzinha</a>
+            </li>
+            <li>
+                <i class="fab fa-linkedin mr-2 icons_socialmedia"></i>
+                <a href="">linkedin.com/in/ilza-medeiros</a>
+            </li>
+            <li>
+                <i class="fas fa-envelope mr-2 icons_socialmedia"></i>
+                <a href="mailto:ilzammed2@gmail.com">ilzammed2@gmail.com</a>
+            </li>
         </ul>
     </div>
+
 
     <div class="habilities d-flex flex-wrap justify-content-around text-white">
         <div class="icons m-4 col">
@@ -118,73 +128,116 @@
 
     <h3 class="text-center m-4 font-weight-bold">Portifólio</h3>
 
-    <div class="d-flex flex-wrap justify-content-around">
-        <div class="card text-center" style="width: 18rem;">
+    <div class="row d-flex justify-content-around">
+
+        <!-- CARD1 -->
+        <div class="card text-center m-2" style="width: 18rem;">
             <img src="assets/m-de-maravilhosa.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">M de Maravilhosa</h5>
-                <a href="https://m-de-maravilhosa-lizzo.netlify.app/personalidade/lizzo/" class="btn btn-roxo">Saiba
+                <p class="text-black-50">Março/2020</p>
+                <a target="modal1" data-target="#modal1" data-toggle="modal" class="btn btn-roxo">Saiba
                     mais</a>
             </div>
         </div>
+        <!-- MODAL1 -->
+        <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">M de Maravilhosa</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Projeto desenvolvido para fechamento do módulo de aprendizado de HTML e CSS durante o curso do
+                        reprograma.
+                    </div>
+                    <div class="modal-footer">
+                        <a target="modal1" href="https://m-de-maravilhosa-lizzo.netlify.app/personalidade/lizzo/"
+                            class="btn btn-roxo">Veja o site!</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="card text-center" style="width: 18rem;">
+
+        <!-- CARD2 -->
+        <div class="card text-center m-2" style="width: 18rem;">
             <img src="assets/mundo-gelado.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Agência Mundo Gelado</h5>
-                <a href="https://ag-mundo-gelado-rec.netlify.app/" class="btn btn-roxo">Saiba mais</a>
+                <p class="text-black-50">Abril/2020</p>
+                <a target="modal1" data-target="#modal2" data-toggle="modal" class="btn btn-roxo">Saiba
+                    mais</a>
+            </div>
+        </div>
+        <!-- MODAL2 -->
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Agência Mundo Gelado</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Projeto extra proposto pelo reprograma para a prática deHTML e CSS durante o curso do
+                        reprograma.
+                    </div>
+                    <div class="modal-footer">
+                        <a target="modal1" href="https://ag-mundo-gelado-rec.netlify.app/"
+                            class="btn btn-roxo">Veja o site!</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="card text-center" style="width: 18rem;">
+        <!-- CARD3 -->
+        <div class="card text-center m-2" style="width: 18rem;">
             <img src="assets/todolist.png" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">To Do List</h5>
-                <a href="https://ilzinha.github.io/T9-Projeto2-TodoList/" class="btn btn-roxo">Saiba mais</a>
+                <p class="text-black-50">Abril/2020</p>
+                <a target="modal1" data-target="#modal3" data-toggle="modal" class="btn btn-roxo">Saiba
+                    mais</a>
             </div>
         </div>
+        <!-- MODAL3 -->
+        <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">To Do List</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Projeto desenvolvido para fechamento do módulo de aprendizado de HTML e CSS durante o curso do
+                        reprograma.
+                    </div>
+                    <div class="modal-footer">
+                        <a target="modal1" href="https://ilzinha.github.io/T9-Projeto2-TodoList/"
+                            class="btn btn-roxo">Veja o site!</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <!-- <div class="card-deck text-center">
-        <div class="card">
-            <img src="assets/mundo-gelado.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Agência Mundo Gelado</h5>
-                <p class="card-text">Projeto extra proposto pelo reprograma para prática de HTML e CSS.</p>
-            </div>
-            <a href="https://ag-mundo-gelado-rec.netlify.app/" class="btn btn-roxo">Veja mais</a>
-            <div class="card-footer">
-                <small class="text-muted">Março/2020</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/m-de-maravilhosa.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">M de Maravilhosa</h5>
-                <p clas
-                s="card-text">Projeto de conclusão do módulo de HTML e CSS. </p>
-            </div>
-            <a href="https://m-de-maravilhosa-lizzo.netlify.app/personalidade/lizzo/" class="btn btn-roxo">Veja mais</a>
-            <div class="card-footer">
-                <small class="text-muted">Abril/2020</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="assets/todolist.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">To Do List</h5>
-                <p class="card-text">Projeto de conclusão do segundo módulo de Javascript.
-                </p>
-            </div>
-            <a href="https://ilzinha.github.io/T9-Projeto2-TodoList/" class="btn btn-roxo">Veja mais</a>
-            <div class="card-footer">
-                <small class="text-muted">Abril/2020</small>
-            </div>
-        </div>
-    </div> -->
 
     <footer class="bg-roxo footer text-center md-3">
-        <p class="text-white">Desenvolvido com Bootstrap por <a class="text-white font-weight-bold"
-                href="ilzinha.github.io">Ilza</a>, enquanto aluna do {reprograma} 2020</p>
+        <p class="text-white">Desenvolvido com Bootstrap por <a class="text-white font-weight-bold" target="_blanc"
+                href="https://ilzinha.github.io/">Ilza</a>, enquanto aluna do {reprograma} 2020</p>
     </footer>
 
     <script src="js/jquery-3.4.1.min.js"></script>
