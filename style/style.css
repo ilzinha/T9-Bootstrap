@@ -5,7 +5,9 @@
 .fa-ul a{
     color: #7E459B;
 } 
-
+a {
+    color: #fff;
+}
 a:hover {
     font-weight: 700;
     color: #7E459B;
@@ -43,13 +45,16 @@ a:hover {
     color: #fff;
     background-color: #7E459B;
 }
-
+/* 
 .btn-roxo:hover {
     color: beige;
-}
+} */
 
 .footer {
     margin-top: 40px;
     padding: 10px;
 } 
 
+a:not([href]):not([tabindex]) {
+    color: #fff;
+}
